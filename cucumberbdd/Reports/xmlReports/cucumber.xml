@@ -1,6 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="20.537" tests="2" skipped="0" failures="0" errors="0">
-<testcase classname="Test the login functionality of OrangeHRM" name="Test the valid login - Example #1.1" time="11.226">
+<testsuite name="Cucumber" time="32.261" tests="6" skipped="0" failures="0" errors="0">
+<testcase classname="Test the login functionality of OrangeHRM using DataTable" name="Test the valid login" time="11.155">
+<system-out><![CDATA[
+Given user is on loginpage..................................................passed
+When user enters credentials using DataTable................................passed
+And click on login button...................................................passed
+Then user should land on home page..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Tags Demo" name="scenario1" time="0.003">
+<system-out><![CDATA[
+Given This is scenario1.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Tags Demo" name="scenario2" time="0.002">
+<system-out><![CDATA[
+Given This is scenario2.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Tags Demo" name="scenario3" time="0">
+<system-out><![CDATA[
+Given This is scenario3.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test the login functionality of OrangeHRM" name="Test the valid login - #1.1" time="10.577">
 <system-out><![CDATA[
 Given user is on loginpage..................................................passed
 When user enters Admin and admin123.........................................passed
@@ -8,7 +31,7 @@ And click on login button...................................................pass
 Then user should land on home page..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test the login functionality of OrangeHRM" name="Test the valid login - Example #1.2" time="9.15">
+<testcase classname="Test the login functionality of OrangeHRM" name="Test the valid login - #1.2" time="10.317">
 <system-out><![CDATA[
 Given user is on loginpage..................................................passed
 When user enters Admin and admin123.........................................passed
